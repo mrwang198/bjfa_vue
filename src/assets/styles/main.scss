@@ -1,0 +1,19 @@
+@import '../../lib/hotcss/px2rem.scss';
+$act-color:#10903d;
+$text-color-important:#000;
+$text-color:#757575;
+$serch-bg:#fafafa;
+//设置字体大续爱
+$text-imp:px2rem(36);
+$text-mid:px2rem(28);
+$text-size:px2rem(24);
+$text-szie-small:px2rem(22);
+//height公共
+$th:px2rem(120);
+.input-file {
+    position: absolute;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+
